@@ -1,0 +1,41 @@
+{
+  "model": "google/muril-base-cased",
+  "accuracy": 1.0,
+  "classification_report": {
+    "literature": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 600.0
+    },
+    "news": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 600.0
+    },
+    "social": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 600.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1800.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1800.0
+    }
+  },
+  "train_size": 7200,
+  "eval_size": 1800,
+  "n_epochs": 3,
+  "max_length": 128
+}

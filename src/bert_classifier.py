@@ -132,9 +132,9 @@ def run_bert_classifier(
         num_train_epochs=n_epochs,
         per_device_train_batch_size=batch_size,
         per_device_eval_batch_size=batch_size,
-        evaluation_strategy="epoch",
-        save_strategy="epoch",
-        load_best_model_at_end=True,
+        eval_strategy="epoch",
+        save_strategy="no",              # <--- Changed: Do not save intermediate checkpoints
+        load_best_model_at_end=False,    # <--- Changed: Must be False if save_strategy="no"
         metric_for_best_model="accuracy",
         logging_steps=50,
         fp16=torch.cuda.is_available(),
