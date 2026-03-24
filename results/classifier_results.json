@@ -1,20 +1,17 @@
 {
   "lr": {
-    "accuracy_mean": 0.9639,
-    "accuracy_std": 0.0025,
-    "f1_macro_mean": 0.9638,
-    "f1_macro_std": 0.0025
+    "accuracy_mean": 1.0,
+    "accuracy_std": 0.0,
+    "f1_macro_mean": 1.0
   },
   "rf": {
-    "accuracy_mean": 0.9925,
-    "accuracy_std": 0.0018,
-    "f1_macro_mean": 0.9925,
-    "f1_macro_std": 0.0018
+    "accuracy_mean": 1.0,
+    "accuracy_std": 0.0,
+    "f1_macro_mean": 1.0
   },
   "svm": {
-    "accuracy_mean": 0.9341,
-    "accuracy_std": 0.0021,
-    "f1_macro_mean": 0.9329,
-    "f1_macro_std": 0.0022
+    "accuracy_mean": 1.0,
+    "accuracy_std": 0.0,
+    "f1_macro_mean": 1.0
   }
 }

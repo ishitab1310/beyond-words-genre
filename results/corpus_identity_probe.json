@@ -1,0 +1,19 @@
+{
+  "results": {
+    "TF-IDF source prediction": {
+      "accuracy_mean": 0.9728,
+      "accuracy_std": 0.0038
+    },
+    "Surface features source prediction": {
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0
+    },
+    "Random baseline": {
+      "accuracy_mean": 0.3289,
+      "accuracy_std": 0.0063
+    }
+  },
+  "chance_baseline": 0.3333,
+  "surface_above_chance": 0.6667,
+  "note": "In current setup genre == corpus source (1 corpus per genre). To fully deconfound, add a 2nd corpus per genre and do cross-corpus eval."
+}

@@ -1,17 +1,17 @@
 {
   "TF-IDF (unigrams, 5k)": {
-    "accuracy_mean": 0.9736,
-    "accuracy_std": 0.0024,
-    "f1_macro_mean": 0.9736
+    "accuracy_mean": 0.9732,
+    "accuracy_std": 0.004,
+    "f1_macro_mean": 0.9733
   },
   "TF-IDF (bigrams, 10k)": {
-    "accuracy_mean": 0.9784,
-    "accuracy_std": 0.0026,
-    "f1_macro_mean": 0.9784
+    "accuracy_mean": 0.9777,
+    "accuracy_std": 0.0025,
+    "f1_macro_mean": 0.9777
   },
   "TF-IDF (char, 5k)": {
-    "accuracy_mean": 0.9968,
-    "accuracy_std": 0.0008,
-    "f1_macro_mean": 0.9968
+    "accuracy_mean": 0.9971,
+    "accuracy_std": 0.0009,
+    "f1_macro_mean": 0.9971
   }
 }

@@ -1,0 +1,66 @@
+{
+  "E1_word_shuffle": {
+    "TF-IDF original": {
+      "accuracy_mean": 0.9728,
+      "accuracy_std": 0.0038
+    },
+    "TF-IDF shuffled": {
+      "accuracy_mean": 0.9728,
+      "accuracy_std": 0.0038
+    }
+  },
+  "E2_pos_only": {
+    "accuracy_mean": 0.8442,
+    "accuracy_std": 0.0104,
+    "f1_macro_mean": 0.8219,
+    "n_samples": 3311
+  },
+  "E3_function_word_only": {
+    "accuracy_mean": 0.7049,
+    "accuracy_std": 0.0096,
+    "f1_macro_mean": 0.7016,
+    "n_samples": 13921
+  },
+  "E4_dependency_only": {
+    "LR": {
+      "accuracy_mean": 0.7439,
+      "accuracy_std": 0.0126,
+      "f1_macro_mean": 0.7193
+    },
+    "RF": {
+      "accuracy_mean": 0.8447,
+      "accuracy_std": 0.0147,
+      "f1_macro_mean": 0.8074
+    },
+    "n_samples": 3007,
+    "n_features": 20,
+    "feature_names": [
+      "nsubj",
+      "obj",
+      "obl",
+      "advmod",
+      "amod",
+      "ccomp",
+      "acl",
+      "nmod",
+      "mdd",
+      "max_depth",
+      "branching",
+      "left_ratio",
+      "non_proj_rate",
+      "pos_NOUN",
+      "pos_VERB",
+      "pos_ADJ",
+      "pos_ADV",
+      "pos_PRON",
+      "pos_ADP",
+      "pos_PART"
+    ]
+  },
+  "E5_delexicalized": {
+    "accuracy_mean": 0.7762,
+    "accuracy_std": 0.0141,
+    "f1_macro_mean": 0.7481,
+    "n_samples": 3311
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "jaccard_similarity": {
+    "literature–news": 0.1191,
+    "literature–social": 0.0953,
+    "news–social": 0.0579
+  },
+  "unique_vocab_stats": {
+    "literature": {
+      "unique_types": 5802,
+      "pct_unique": 57.58
+    },
+    "news": {
+      "unique_types": 22342,
+      "pct_unique": 83.11
+    },
+    "social": {
+      "unique_types": 7700,
+      "pct_unique": 76.53
+    }
+  },
+  "top_discriminative": {
+    "literature": [
+      "सजा",
+      "सियार",
+      "न-जाने",
+      "पुत्री",
+      "कजाकी",
+      "जरा",
+      "दौड़ा",
+      "बैठता",
+      "जाऊँगा",
+      "बस,",
+      "मुँह",
+      "बेटा,",
+      "भगवान्",
+      "कन्या",
+      "पूछा-",
+      "दरबार",
+      "तोता",
+      "दुर्योधन",
+      "किन्तु",
+      "बन्द"
+    ],
+    "news": [
+      "'x'",
+      "शतक",
+      "इंदौर",
+      "टैग",
+      "जोड़े",
+      "निर्मित",
+      "ट्रैकिंग",
+      "बकौल",
+      "पथराव",
+      "एंटरटेनमेंट",
+      "नैशनल",
+      "दायर",
+      "टूटकर",
+      "जयशंकर",
+      "प्रज्वल",
+      "ज़ब्त",
+      "असम",
+      "कैफे",
+      "ब्लैक",
+      "(यूबीटी)"
+    ],
+    "social": [
+      "खामोशी।",
+      "#success",
+      "#smile",
+      "#silence",
+      "#mondaythoughts",
+      "पटाकर",
+      "लेते,",
+      "तिब्बत",
+      "कब्जा",
+      "लेते...!",
+      "इश्क़",
+      "ठरकी",
+      "*『अपना』",
+      "एक1⃣",
+      "#असूल☝️",
+      "#dil❤️️",
+      "_dosti🤝",
+      "👬निभाओ",
+      "#_jigar",
+      "ye"
+    ]
+  },
+  "interpretation": "Low Jaccard (<0.10) suggests high vocabulary separation — possible corpus identity confound. High unique vocab % amplifies this."
+}
